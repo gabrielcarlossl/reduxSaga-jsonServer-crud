@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.descricao{
+    width: 200px;
+}
+
+.product{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(129, 172, 197);
+}
+
+.product > p{
+    padding: 10px;
+}
+.full{
+    font-weight: bold;
+    background-color: green;
+}
+.fewUnits{
+    font-weight: bold;
+    background-color: rgb(243, 122, 122);
+}
+
+.productImg{
+    border-radius: 10%;
+}
